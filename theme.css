@@ -1,0 +1,328 @@
+body {
+  background-color: #2196f3;
+  font-family: 'Roboto', sans-serif;
+}
+
+aside {
+  float:left;
+}
+
+main {
+  float:right;
+}
+
+b {
+  font-weight: bold;
+}
+
+
+
+.createLobby {
+  position:absolute;
+  height:1em;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  color:#f0594a;
+  margin: auto;
+  text-align: center;
+}
+
+.lobby {
+  position:relative;
+  height:52px;
+  border-bottom:solid 1px #e6e6e6;
+  padding-top:7px;
+  padding-bottom:7px;
+}
+.lobby:nth-child(even) {
+  background-color:#eeeeee;
+}
+
+.pic {
+  float:left;
+  width:50px;
+  height:50px;
+  padding-right:10px;
+}
+.pic img{
+  width:100%;
+  height:100%;
+}
+
+.infoArea {
+  float:left;
+  color:#393939;
+}
+
+.game {
+  color:#f0594a;
+}
+
+.joinButton {
+  color:#f0594a;
+  margin: auto;
+  text-align: center;
+  float: right;
+  position:absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  height:20px;
+  padding-right:20px;
+}
+
+
+.login-error {
+  margin-top: 30px;
+  color: #d52c1a;
+}
+
+.login-success {
+  margin-top: 30px;
+  color: #3ed332;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pageContainer {
+  width: 960px;
+  margin: auto auto;
+  padding-top: 100px;
+}
+
+#header {
+  z-index:420;
+  background-color: #1565c0;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+  box-shadow: 0 3px 10px #000;
+  position: fixed;
+  width: 98%;
+}
+
+.fa-search {
+  color: #fff;
+  cursor: pointer;
+}
+
+h1 {
+  display: inline;
+}
+
+#lobbyBox .boxContent{
+  overflow-y: scroll;
+}
+
+#lobbyBox {
+  width: 640px;
+  height: 915px;
+}
+
+#user-info {
+  display: inline;
+  float: right;
+}
+
+#user-info ul {
+  display: inline;
+}
+
+#user-info ul:first-child {
+  cursor: pointer;
+}
+
+#user-info li {
+  display: inline;
+  padding: 15px;
+}
+
+
+#sendMessage {
+  border-top: solid 1px #e6e6e6;
+}
+
+#sendMessageText {
+  display: inline-block;
+  width: auto;
+}
+
+#sendButton {
+  display: inline-block;
+  width: 40px;
+}
+
+#sendMessage input {
+  border: 0;
+  width: 100%;
+}
+
+.message {
+  padding: 7px 7px 7px 7px;
+  font-size: 12px;
+}
+
+.message:nth-child(even) {
+  background: #eeeeee;
+}
+
+.message .text {
+  font-size: 13px;
+  display: inline;
+}
+
+.message .user {
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dm {
+  background-color: #e4c4c4 !important;
+}
+
+.timestamp {
+  font-size: 10px;
+}
+
+#sendMessageText textarea {
+  resize: none;
+  border: none;
+  width: 230px;
+  padding: 7px 10px;
+  font-family: inherit;
+  outline: none;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.boxTitle {
+  padding: 7px 0px 7px 7px;
+  background-color: #f15a4a;
+}
+
+.boxTitle h2 {
+  color: #ffffff;
+  display: inline;
+}
+
+.boxContent {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 7px 7px 7px 7px;
+}
+
+#search {
+  float: right;
+  padding-right: 7px;
+}
+
+.status {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.online {
+  background-color: green;
+}
+
+.away {
+  background-color: orange;
+}
+
+.offline {
+  background-color: red;
+}
+
+
+.noPadding {
+  padding: 0 !important;
+}
+
+.registerBox{
+  height:440px;
+}
+
+.loginBox{
+  height:310px;
+}
+
+.createBox{
+  height:350px;
+  background-color: #2196f3;
+  padding:15px 15px 15px 15px;
+  box-shadow: 0 3px 5px #000;
+  display:none;
+}
+
+#formBox {
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+}
+
+#formBox h1 {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+#formBox input {
+  display: block;
+  margin: auto;
+}
+
+#formBox input[type="text"], #formBox input[type="password"] {
+  width: calc(100% - 12px);
+  border: 0;
+  font-size: 14px;
+  padding: 12px 0px 12px 12px;
+  margin: 30px 0px 40px 0px;
+  background-color: #fff;
+}
+
+#formBox input[type="submit"], #formBox input[type="button"] {
+  border: 0;
+  background-color: #f0594a;
+  color: #fff;
+  height: 45px;
+  width: 130px;
+  display:inline;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+#formBox input[type="number"]{
+  display:inline;
+  width:10em;
+  border: 0;
+  font-size: 14px;
+  padding: 12px 0px 13px 12px;
+}
+
+#formBox select {
+  display:inline;
+  border:0;
+  padding: 12px 0px 12px 12px;
+  width: calc(100% - 12em);
+  margin: 0px 0px 40px 0px;
+}

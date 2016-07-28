@@ -1,0 +1,106 @@
+
+#chatBox {
+  width: 300px;
+  min-height: 400px;
+  padding: 80px 0;
+}
+
+#chatBox  .box {
+}
+
+#chatBox .boxContent {
+  height: 100%;
+}
+
+#chatArea {
+  max-height: 400px;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+#sendMessage {
+  border-top: solid 1px #e6e6e6;
+}
+
+#sendMessageText {
+  display: inline-block;
+  width: auto;
+}
+
+#sendButton {
+  display: inline-block;
+  width: 40px;
+}
+
+#sendMessage input {
+  border: 0;
+  width: 100%;
+}
+
+.message {
+  padding: 7px 7px 7px 7px;
+  font-size: 12px;
+}
+
+.message:nth-child(even) {
+  background: #eeeeee;
+}
+
+.message .text {
+  font-size: 13px;
+  display: inline;
+}
+
+.message .user {
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dm {
+  background-color: #e4c4c4 !important;
+}
+
+.timestamp {
+  font-size: 10px;
+}
+
+#sendMessageText textarea {
+  resize: none;
+  border: none;
+  width: 230px;
+  padding: 7px 10px;
+  font-family: inherit;
+  outline: none;
+}
+
+#chatBox {
+  width: 300px;
+  min-height: 400px;
+  padding: 80px 0;
+}
+
+#chatBox  .box {
+}
+
+#chatBox .boxContent {
+  height: 100%;
+}
+
+#chatArea {
+  max-height: 400px;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+
+.player {
+  padding: 3px 0px 3px 0px;
+  cursor: pointer;
+}
+
+
+#playersBox {
+  width: 300px;
+  height: 400px;
+}
